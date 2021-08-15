@@ -1,0 +1,77 @@
+
+.dashboard {
+    font-family: 'Roboto'
+}
+
+.search-input {
+    display: flex;
+}
+
+.input-box {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 5px 0;
+    height: 30px;
+}
+
+.table-row {
+    display: grid;
+    grid-template-columns: 75px 1fr 1fr 1fr 1fr;
+    height: 25px;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.selected-row {
+    background-color: lightblue;
+}
+
+.table-head {
+    display: grid;
+    grid-template-columns: 75px 1fr 1fr 1fr 1fr;
+    height: 25px;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.all-input-checkbox, .input-checkbox {
+    margin: 0 30px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.delete-btn {
+    height: 30px;
+    align-self: center;
+    margin: 0 20px;
+    background: hotpink;
+    border: none;
+    border-radius: 20px;
+}
+
+.table-cell-btn {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-gap: 20px;
+}
+
+.pagination-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 30%;
+}
+
+.pagination-button {
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: beige;
+}
+
+.active-index {
+    background: hotpink;
+}
